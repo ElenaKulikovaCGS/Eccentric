@@ -826,6 +826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7710216573701189669}
+  - component: {fileID: 726429881737383337}
   m_Layer: 0
   m_Name: Cloud
   m_TagString: Untagged
@@ -849,6 +850,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &726429881737383337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6133769641547865946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 197cc5e27aaab7242a891c13e65c0011, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxDestroyTime: 5000000
 --- !u!1 &6534443478527946508
 GameObject:
   m_ObjectHideFlags: 0
@@ -1456,7 +1470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8065854548283111086}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.318925, y: -0.9749718, z: 0}
+  m_LocalPosition: {x: 3.952, y: -0.9749718, z: 0}
   m_LocalScale: {x: 1.0742936, y: 0.47249788, z: 0.47533673}
   m_ConstrainProportionsScale: 0
   m_Children: []
